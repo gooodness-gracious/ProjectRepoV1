@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">CUFacultyFacilityFinder</string>
+
+    <string-array name="departmentNames">
+        <item> </item>
+        <item>Computer Science</item>
+        <item>Mathematics</item>
+        <item>Statistics</item>
+        <item>Electronics</item>
+        <item>Economics</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Live Sciences</item>
+    </string-array>
+
+    <string-array name="postName">
+        <item> </item>
+        <item>Head of Department</item>
+        <item>Co-ordinator</item>
+        <item>Associate Professor</item>
+        <item>Professor</item>
+        <item>Assistant Professor</item>
+    </string-array>
+
+    <string-array name="startTime">
+        <item> </item>
+        <item>7:00 A.M.</item>
+        <item>9:00 A.M.</item>
+        <item>12:00 P.M.</item>
+        <item>4:00 P.M.</item>
+    </string-array>
+    <string-array name="endTime">
+        <item> </item>
+        <item>12:00 P.M.</item>
+        <item>4:00 P.M.</item>
+        <item>8:00 P.M.</item>
+    </string-array>
+
+    <string-array name="buildingName">
+        <item> </item>
+        <item>R and D Block</item>
+        <item>Central Block</item>
+        <item>Audi Block</item>
+        <item>Block 1</item>
+        <item>Block 2</item>
+        <item>Block 3</item>
+        <item>Block 4</item>
+    </string-array>
+
+
+    <string-array name="scDayName">
+        <item></item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="scPeriod">
+        <item>Select a Period</item>
+        <item>Period 1</item>
+        <item>Period 2</item>
+        <item>Period 3</item>
+        <item>Period 4</item>
+        <item>Period 5</item>
+        <item>Period 6</item>
+        <item>Period 7</item>
+        <item>Elective</item>
+    </string-array>
+
+
+    <string-array name="scStartTime">
+        <item>Start Time</item>
+        <item>6:00 A.M.</item>
+        <item>7:00 A.M.</item>
+        <item>8:00 A.M.</item>
+        <item>9:00 A.M.</item>
+        <item>10:00 A.M.</item>
+        <item>11:00 A.M.</item>
+        <item>12:00 P.M.</item>
+        <item>1:00 P.M.</item>
+        <item>2:00 P.M.</item>
+        <item>3:00 P.M.</item>
+        <item>4:00 P.M.</item>
+        <item>5:00 P.M.</item>
+        <item>6:00 P.M.</item>
+        <item>7:00 P.M.</item>
+    </string-array>
+    <string-array name="scEndTime">
+        <item>End Time</item>
+        <item>7:00 A.M.</item>
+        <item>8:00 A.M.</item>
+        <item>9:00 A.M.</item>
+        <item>10:00 A.M.</item>
+        <item>11:00 A.M.</item>
+        <item>12:00 P.M.</item>
+        <item>1:00 P.M.</item>
+        <item>2:00 P.M.</item>
+        <item>3:00 P.M.</item>
+        <item>4:00 P.M.</item>
+        <item>5:00 P.M.</item>
+        <item>6:00 P.M.</item>
+        <item>7:00 P.M.</item>
+        <item>8:00 P.M.</item>
+    </string-array>
+
+
+</resources>

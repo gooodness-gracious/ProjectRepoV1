@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teacher_finder"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/tfSearchLab"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Enter the name of the teacher you are looking for"
+        android:textColor="#070707"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/tfTeacherEntry"
+        android:layout_width="319dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Name of Teacher"
+        android:textColor="@color/christblue"
+        android:textColorHint="#B5AFAF"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <ImageButton
+        android:id="@+id/tfSearchButton"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/rounded_corners"
+
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/trialSS"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:textColor="@color/christblue"
+        android:hint="Name of teacher"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:background="@android:drawable/editbox_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Spinner
+        android:id="@+id/spTeacherSearch"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/christblue"
+        app:layout_constraintVertical_bias="0.258" />
+</androidx.constraintlayout.widget.ConstraintLayout>

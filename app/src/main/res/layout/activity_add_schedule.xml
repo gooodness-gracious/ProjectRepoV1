@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"  >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        tools:context=".Schedule">
+
+
+        <Spinner
+            android:id="@+id/scDaySpin"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="40dp"
+            android:entries="@array/scDayName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.262"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/scDayLab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Choose a Day"
+            android:textColor="@color/christblue"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/scPeriodSpin"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="100dp"
+            android:entries="@array/scPeriod"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.262"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/scStartTime"
+            android:layout_width="150dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="168dp"
+            android:entries="@array/scStartTime"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/scEndTime"
+            android:layout_width="150dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="168dp"
+            android:entries="@array/scEndTime"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.948"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/scSubjectLab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="244dp"
+            android:text="Subject"
+            android:textColor="@color/christblue"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/scSubjectEntry"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="228dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/christblue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.827"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/scRoomNumber"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="356dp"
+            android:ems="10"
+            android:hint="Room Number"
+            android:inputType="textPersonName"
+            android:textColor="@color/christblue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.415"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/scBuildingSpin"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="468dp"
+            android:entries="@array/buildingName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.737"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/scBuildingLab"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:text="   Choose a Building"
+            android:textColor="@color/christblue"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.688"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/scAddPeriod"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="540dp"
+            android:backgroundTint="#314993"
+            android:text="Add Another Period"
+            app:backgroundTint="#3E5180"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.721"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/scSubmitButton"
+            android:layout_width="350dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="604dp"
+            android:backgroundTint="#220E53"
+            android:text="Submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.721"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/scFloorEntry"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="356dp"
+            android:ems="10"
+            android:hint="Floor Number"
+            android:inputType="textPersonName"
+            android:textColor="@color/christblue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/scRoomName"
+            android:layout_width="260dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="292dp"
+            android:ems="10"
+            android:hint="Room Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/christblue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.827"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/scClassLab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:text="Class"
+            android:textColor="@color/christblue"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

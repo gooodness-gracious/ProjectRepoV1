@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyFound"
+    android:background="@drawable/gradient_background">
+
+
+
+    <TextView
+        android:id="@+id/ffTeacherPost"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:hint="Teacher's Position"
+        android:textColor="@color/christblue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ffTeacherName" />
+    <TextView
+        android:id="@+id/ffTeacherName"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="88dp"
+        android:hint="Teacher's Name"
+        android:textColor="@color/christblue"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ffGeneralDetails"
+        android:layout_width="350dp"
+        android:layout_height="480dp"
+        android:hint="NO OUTPUT"
+        android:textColor="@color/christblue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ffTeacherPost"
+        app:layout_constraintVertical_bias="0.981" />
+
+    <Button
+        android:id="@+id/ffGenTab"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/christblue"
+        android:text="GENERAL"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295" />
+
+    <TextView
+        android:id="@+id/ffSearchFound"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:text="Search Results:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ffPresentTab"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/nonchristblue"
+        android:text="AT PRESENT"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

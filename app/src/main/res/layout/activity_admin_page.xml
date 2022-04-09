@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPage"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/facultyDatabaseHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Faculty Database"
+        android:textColor="#0E0E0E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/addButtonFaculty"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:text="ADD"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:backgroundTint="#022E53"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <Button
+        android:id="@+id/modifyButtonFaculty"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:text="MODIFY"
+        android:textSize="20sp"
+        app:backgroundTint="#022E53"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Button
+        android:id="@+id/deleteButtonFaculty"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:text="DELETE"
+        android:textSize="20sp"
+        app:backgroundTint="#022E53"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394" />
+
+    <TextView
+        android:id="@+id/facilityDatabaseHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Facility Database"
+        android:textColor="#0E0E0E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <Button
+        android:id="@+id/addButtonFacility"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:text="ADD"
+        android:textSize="20sp"
+        app:backgroundTint="#022E53"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <Button
+        android:id="@+id/modifyButtonFacility"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:text="MODIFY"
+        android:textSize="20sp"
+        app:backgroundTint="#022E53"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736" />
+
+    <Button
+        android:id="@+id/deleteButtonFacility"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:text="DELETE"
+        android:textSize="20sp"
+        app:backgroundTint="#022E53"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.829" />
+</androidx.constraintlayout.widget.ConstraintLayout>
